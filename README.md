@@ -1,21 +1,16 @@
 # Agentic AI Video Summarizer Project
 <br/>
 
-The project is a web application built using **Streamlit** which allows users to upload  videos and analyze their content by asking specific questions related to it and also translate into various other languages. 
+The project is a web application built using **Streamlit**, which allows users to upload  videos and analyze their content using custom prompts, and also has a translation feature.
 <br/>
 
-The **phi library** is used to create the AI Agent, where I imported the **Google Gemini** model for the video analysis, and **DuckDuckGo Search**, a tool for web search, so that the agent can gather 
-additional information.
-<br/>
+1. **phi**: I have used this library to import AI Agent framework, Google Gemini model and DuckDuckGo search tool.
+2. **google.generativeai**: Used for utility functions like 'upload_file' and 'get_file'.
+3. **deep_translator**: Used to import **GoogleTranslator** fro translation properties.
+4. I used **Google AI Studio** to create the API Key for using the Gemini model.
 
-I also imported **google.generativeai** library, where I used Google services like **upload_file**, to upload the files for processing, and **get_file** to retrieve the processed file's results.
-<br/>
+The current project is a basic and simple looking one. It was my first attempt at building an Agentic AI application, but I find this very interesting and will continue exploring and building complex, beautiful and useful applications!
 
-For the translation of the analysis, I imported the **deep_translator** library from **GoogleTranslator**, which helps in translating the video analysis into different languages.
+Connect with me! https://www.linkedin.com/in/kanchankumari1732/
 
-Also, I used **dotenv**, which helped me to load sensitive information like the **API key** from the **.env** file.
-<br/>
-
-And, used the inbuilt libraries like **time**, which helps in introducing delays(time for video processing to complete), **pathlib**, which helps in managing file paths and deleting the
- temporary files, **tempfile**, to create temporary files and store the uploaded videos.
 
